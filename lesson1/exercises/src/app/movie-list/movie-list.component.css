@@ -1,0 +1,11 @@
+/* a- The text for the heading and list items can be any color EXCEPT black. 
+(HINT: Take advantage of the movies class).*/
+.movies h3 {
+    color : blue;
+    text-align: center;    
+}
+.movies li {
+    font-size: 18px;
+}
+/*b- The movie list should have a centered heading:DONE
+c- The font size should be large enough to easily read:DONE*/

@@ -1,0 +1,13 @@
+/*a- Use a different font, with a size large enough to easily read.*/
+.chores h3 {
+    text-decoration: underline;
+}
+.chores li {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: grey;
+}
+/*b- The text color should be different from the movie list, but not black:DONE
+c- The chores list should have an underlined heading:DONE
+d- The chores in the list should be italicized.*/

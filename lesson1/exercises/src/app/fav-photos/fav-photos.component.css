@@ -2,8 +2,9 @@ h3 {
    color: brown;
 }
 
-img {
-
+img {   
+   max-width: 300px;
+   max-height: 300px;
 }
 
 .photos {
