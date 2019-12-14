@@ -4,5 +4,15 @@
        <li *ngFor ="let movie of movies">{{movie}}</li>
     </ol>
     <hr>
+    <!--input #newMovie (keyup.enter)="addMovie(newMovie.value.trim()); newMovie.value = ''" type="text" placeholder="Enter Movie Title Here"/>
+    <button (click)='addMovie(newMovie.value.trim()); newMovie.value = ""'>Add</button-->
+    <!--ng-template #errorMessage>
+       <p style="color:red">You have entered a title that is already on the list</p>
+    </ng-template--> 
 
- </div>
+    <!-- The following lines solve the bonus tasks. Replace lines 7 & 8 with lines
+         12 - 14. -->
+    <input #newMovie (keyup.enter)="message = addMovie(newMovie.value.trim()); newMovie.value = ''" type="text" placeholder="Enter Movie Title Here"/>
+    <button (click)="message = addMovie(newMovie.value.trim()); newMovie.value = ''">Add</button>
+    <p class = "error" *ngIf = "message">{{message}}</p>   
+</div>
